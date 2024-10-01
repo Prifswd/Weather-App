@@ -5,13 +5,13 @@ import { useState } from "react"
 export default function() {
 
     const [weatherInfo, setWeatherInfo] = useState({
-        city: "Jalpaiguri",
-        feelsLike: 30.25,
-        temp: 25.25,
-        tempMin: 25.25,
-        tempMax: 25.25,
-        humidity: 92,
-        weather: "light rain"
+        city: "-No City-",
+        feelsLike: 0.0,
+        temp: 0.0,
+        tempMin: 0.0,
+        tempMax: 0.0,
+        humidity: 0.0,
+        weather: "-No Data"
     })
 
     let updateInfo = (newInfo) =>{
